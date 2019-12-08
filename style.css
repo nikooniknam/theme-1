@@ -1,0 +1,270 @@
+
+/******************************* Global Styles *******************************/
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+
+body {
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+    font-family: Vazir;
+
+}
+h1 , h2, h3 {
+    font-family: Vazir;
+}
+
+p {
+    font-family: Sahel;
+}
+
+/******** Farsi-font-faces ********/
+
+/**** iranSans ****/
+@font-face {
+    font-family: "iranSans";
+    src: url("../fonts/eot/IRANSans(FaNum)_Medium.eot");
+    src: url("../fonts/ttf/IRANSansWeb(FaNum).ttf");
+    src: url("../fonts/woff/IRANSansWeb(FaNum).woff");
+    src: url("../fonts/woff2/IRANSansWeb(FaNum).woff2");
+}
+
+/**** font-Sahel ****/
+@font-face {
+    font-family: Sahel;
+    src: url('http://fonts.codearena.ir/rastikerdar/sahel/sahel.eot');
+    src: url('http://fonts.codearena.ir/rastikerdar/sahel/sahel.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/rastikerdar/sahel/sahel.woff') format('woff'),
+         url('http://fonts.codearena.ir/rastikerdar/sahel/sahel.ttf') format('truetype');
+    font-weight: normal;
+  }  
+  
+/**** font-Vazir ****/
+@font-face {
+    font-family: Vazir;
+    src: url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.eot');
+    src: url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.woff') format('woff'),
+         url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.ttf') format('truetype');
+    font-weight: normal;
+  }
+
+
+
+/******************************* Website Styles *******************************/
+
+/*********** Section1 - header - menue ***********/
+header section {
+    width: 100%;
+    height: auto;
+    background-color: #004585;
+}
+header section nav ul{
+    width: inherit;
+    list-style:none;
+}
+header section nav ul li {
+    display: inline-block;
+}
+header section nav ul li a {
+    width: 100%;
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 1.5rem 3rem;
+}
+header section nav ul li a:hover{
+    background-color: rgb(0, 54, 126);
+}
+
+
+/******** Section2 - parallax-main-image ********/
+.two-parallax{
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    background: url("../6th-TASK-one-page-website-v1/images/parallax-main-image.jpg")center center no-repeat fixed;
+    background-color: black;
+    background-size: cover;
+}
+.two-parallax section {
+    background-color: rgba(22, 108, 179, 0.6);
+    height: inherit;
+}
+.two-parallax div {
+    width: 60%;
+    text-align: center;
+    margin: 0% auto;
+    padding-top: 10%;
+}
+.two-parallax h1 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+}
+.two-parallax p {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+
+/*************  Section3 - About me *************/
+.three{
+    display: flex;
+    margin: 7% 8% 6% 8%;
+}
+.three section {
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    margin: 1%;
+    padding: 2%;
+    /* background-color: hotpink; */
+}
+.three h2{
+    padding-bottom: 2%;
+}
+.three p {
+    text-align: justify;
+}
+.three img {
+    width: 100%;
+    border-radius: 300px;
+    display: inline-block;
+    padding: 0%;
+}
+
+
+/*************  Section4 - gallery  *************/
+.four-gallery {
+    background-color: rgb(9, 39, 88);
+    padding: 10%;
+}
+.four-gallery h2{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.four-gallery p {
+    text-align: center;
+}
+.four-gallery p img{
+    width: 30%;
+    margin: 1%;
+    border: 5px solid rgba(189, 225, 255, 0.8);
+}
+
+/**************  Section5 - NEWS  ***************/
+.five-news {
+    padding: 10% 5% 10% 5%;
+}
+.five-news h1 {
+    padding-bottom: 1em;
+    font-size: 2rem;
+    text-align:center;
+}
+.five-news section {
+    text-align: center;
+    width: 31%;
+    height: auto;
+    display: inline-block;
+    border: 1px solid rgb(187, 212, 230);
+    padding: 2%;
+    margin:1%;
+}
+.five-news h3 {
+    padding-bottom: 1.2em;
+}
+.five-news p{
+    text-align: justify;
+}
+
+
+/*********  section6 - contact - form  **********/
+.six-form-media {
+    width: 100%;
+    padding: 5%;
+    background-color: rgb(0, 19, 71);
+}
+.media, .form {
+    display: inline-block;
+    width: 47%;
+    height: auto;
+    background-color: rgb(13, 48, 105);
+    border: 3px solid rgba(189, 225, 255, 0.8);
+    padding: 0%;
+    margin: 1%;
+}
+
+/* media starts */
+.six-form-media .media{
+    padding:4%;
+}
+.six-form-media .media h2{
+    color: whitesmoke;
+    padding-bottom:1%;
+}
+.six-form-media .media a {
+    display: block;
+    padding: 1.5%;
+    border: 3px solid rgb(13, 48, 105);
+    text-align: center;
+    color: rgb(9, 59, 139);
+    background-color: rgb(241, 241, 241);
+}
+.six-form-media .media i{
+    padding-right: 2%;
+}
+
+/* form starts */
+.six-form-media .form {
+    padding:4%;
+}
+.six-form-media .form h2 {
+    color: whitesmoke;
+    padding-bottom:1%;
+}
+.six-form-media .form input{
+    width: 95%;
+    margin: 1.7%;
+    padding:1.2%;
+    display: block;
+    font-size: 1rem;
+    font-family: Sahel;
+    background-color: rgb(241, 241, 241);
+}
+.six-form-media .form input[type=submit]{
+    width: 55%;
+    background-color: rgb(250, 248, 248);
+    font-family: Sahel;
+}
+.six-form-media .form [type=text]:focus{
+    background-color: rgb(255, 255, 255);
+    color: rgb(103, 103, 104);
+}
+
+
+/*************  Section7 - footer  **************/
+footer .divider {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(189, 225, 255, 0.8);
+    
+}
+footer section {
+    width: 100%;
+    background-color: rgb(0, 10, 36);
+    color: white;
+    padding: 2% 0% 2% 0%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/****** The END - 2019.21.11 - by Nikoo Niknam ****** /
